@@ -1,6 +1,6 @@
 import React from 'react'
 import SideBarRow from './SideBarRow';
-
+import './SideBar.css';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import StorefrontIcon from '@material-ui/icons/Storefront';
