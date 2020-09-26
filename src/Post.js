@@ -6,6 +6,7 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import NearMeIcon from '@material-ui/icons/NearMe';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
+
 function Post({ profilePic, image, username, timestamp, message }) {
     return (
         <div className="post">
@@ -17,6 +18,8 @@ function Post({ profilePic, image, username, timestamp, message }) {
                 <div className="post__topInfo">
                     <h3>{username}</h3>
                     <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
+
+
                 </div>
 
             </div>
