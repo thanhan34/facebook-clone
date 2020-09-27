@@ -2,3 +2,11 @@
   padding: 25px 10px;
   flex: 0.33;
 }
+
+/* Mobile First*/
+@media screen and (max-width: 999px) {
+  .sidebar {
+    padding: 15px 5px;
+    flex: 0.15;
+  }
+}

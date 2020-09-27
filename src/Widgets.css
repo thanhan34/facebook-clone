@@ -1,3 +1,9 @@
 .widgets {
   padding: 25px 20px;
 }
+@media screen and (max-width: 999px) {
+  .widgets {
+    display: none;
+    max-width: 0px;
+  }
+}

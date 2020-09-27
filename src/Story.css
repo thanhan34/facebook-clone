@@ -26,3 +26,20 @@
   left: 20px;
   color: white;
 }
+@media screen and (max-width: 999px) {
+  .story {
+    width: 60px;
+    height: 100px;
+  }
+  .story__avatar {
+    margin: 2px;
+    border: 1px solid #2e81f4;
+  }
+  .story > h4 {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    color: white;
+    font-size: 10px;
+  }
+}
